@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jocs Switch</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333333;
+        }
+        header, footer {
+            background-color: #ff4747;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1, footer p {
+            margin: 0;
+        }
+        header nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .main-section {
+            padding: 20px;
+        }
+        .main-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .games-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .game-box {
+            background-color: #ffffff;
+            border: 2px solid #ff4747;
+            border-radius: 8px;
+            width: 280px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .game-box img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .game-box h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        .game-box p {
+            font-size: 0.9rem;
+            color: #555555;
+        }
+        .nintendo-table {
+            margin: 30px auto;
+            width: 90%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        .nintendo-table th, .nintendo-table td {
+            border: 1px solid #ff4747;
+            padding: 10px;
+        }
+        .nintendo-table th {
+            background-color: #ff4747;
+            color: white;
+        }
+        .nintendo-table td {
+            background-color: #ffffff;
+        }
+        .nintendo-table img {
+            width: 100px;
+            height: auto;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top Jocs Switch</h1>
+        <nav>
+            <a href="index.html">Inici</a>
+            <a href="jocsPC.html">Jocs PC</a>
+            <a href="jocsPS4.html">Jocs PS4</a>
+            <a href="jocsSwitch.html">Jocs Switch</a>
+        </nav>
+    </header>
+    <section class="main-section">
+        <h2>Els Millors Jocs per a Nintendo Switch</h2>
+        <div class="games-container">
+            <div class="game-box">
+                <img src="imagenes/zelda.jpg" alt="Zelda">
+                <h3>Legend of Zelda: Breath of the Wild</h3>
+                <p>Explora un món obert espectacular en aquesta obra mestra de Nintendo.</p>
+            </div>
+            <div class="game-box">
+                <img src="imagenes/mario.jpg" alt="Mario Odyssey">
+                <h3>Super Mario Odyssey</h3>
+                <p>Acompanya Mario en una nova aventura plena de diversió i creativitat.</p>
+            </div>
+            <div class="game-box">
+                <img src="imagenes/pokemon.jpg" alt="Pokémon">
+                <h3>Pokémon Scarlet</h3>
+                <p>Descobreix la nova generació Pokémon en una aventura inoblidable.</p>
+            </div>
+            <div class="game-box">
+                <img src="imagenes/smash.jpg" alt="Super Smash Bros.">
+                <h3>Super Smash Bros. Ultimate</h3>
+                <p>Lluita amb els teus personatges favorits en aquest joc de combat icònic.</p>
+            </div>
+        </div>
+    </section>
+    <section class="main-section">
+        <h2>Models de Nintendo i Preus</h2>
+        <table class="nintendo-table">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Imatge</th>
+                    <th>Preu (€)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nintendo Switch OLED</td>
+                    <td><img src="imagenes/oled.jpg" alt="Nintendo Switch OLED"></td>
+                    <td>349,99€</td>
+                </tr>
+                <tr>
+                    <td>Nintendo Switch Lite</td>
+                    <td><img src="imagenes/lite.webp" alt="Nintendo Switch Lite"></td>
+                    <td>199,99€</td>
+                </tr>
+                <tr>
+                    <td>Nintendo Switch Standard</td>
+                    <td><img src="imagenes/switch.avif" alt="Nintendo Switch Standard"></td>
+                    <td>299,99€</td>
+                </tr>
+                <tr>
+                    <td>Nintendo Switch Edició Especial Zelda</td>
+                    <td><img src="imagenes/szelda.jpg" alt="Nintendo Switch Zelda"></td>
+                    <td>399,99€</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Jocs Switch. FET PER ARNAU MONTAGUT FALCÓ.</p>
+    </footer>
+</body>
+</html>

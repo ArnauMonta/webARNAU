@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jocs PS4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0d0d1a; 
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: #1a1a40;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1, footer p {
+            margin: 0;
+        }
+        header nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero img {
+            display: block;
+            margin: 20px auto;
+            max-width: 50%;
+            border-radius: 10px;
+        }
+        .games-section {
+            padding: 20px 40px;
+        }
+        .games-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #00aaff; 
+        }
+        .game-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .game-card {
+            background-color: #1a1a40; 
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        .game-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .game-card h3 {
+            margin: 15px 0;
+            font-size: 1.5rem;
+            color: #00aaff; 
+        }
+        .game-card p {
+            margin: 0 15px 15px;
+            color: #cccccc; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top Jocs PS4</h1>
+        <nav>
+            <a href="index.html">Inici</a>
+            <a href="JocsPC.html">Jocs PC</a>
+            <a href="jocsPS4.html">Jocs PS4</a>
+            <a href="jocsSwitch.html">Jocs Switch</a>
+        </nav>
+    </header>
+    <div class="hero">
+    </div>
+    <section class="games-section">
+        <h2>Els Millors Jocs de Play Station 4</h2>
+        <div class="game-cards">
+            <div class="game-card">
+                <img src="imagenes/gow.jpg" alt="GoW">
+                <h3>God of War</h3>
+                <p>Endinsa’t en la mitologia nòrdica amb Kratos i Atreus en una èpica lluita per la redempció en God of War!</p>
+            </div>
+            <div class="game-card">
+                <img src="imagenes/spider.jpg" alt="Spiderman">
+                <h3>Spider-Man</h3>
+                <p>Submergeix-te en les teues teranyines i protegeix Nova York com el llegendari Spider-Man!</p>
+            </div>
+            <div class="game-card">
+                <img src="imagenes/db.jpg" alt="Dragon Ball">
+                <h3>Dragon Ball Z: Kakarot</h3>
+                <p>Reviveix la saga de Goku i els seus amics amb combats èpics i aventures emocionants a Dragon Ball Kakarot!</p>
+            </div>
+            <div class="game-card">
+                <img src="imagenes/re.jpg" alt="Resident Evil">
+                <h3>Resident Evil 3 Remake</h3>
+                <p>Sobreviu al terror de Racoon City i enfronta’t a Nemesis en Resident Evil 3!</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Jocs PC - Top Juegos. ARNAU MONTAGUT FALCO.</p>
+    </footer>
+</body>
+</html>
